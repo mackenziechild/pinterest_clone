@@ -1,6 +1,7 @@
 %h1 This is the index page,bitch
 
-= link_to "New Pin", new_pin_path
+- if user_signed_in?
+	= link_to "New Pin", new_pin_path
 
 - @pins.each do |pin|
 	%h2= link_to pin.title, pin
