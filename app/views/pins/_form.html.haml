@@ -7,6 +7,12 @@
 			%ul
 				- @pin.errors.full_messages.each do |msg|
 					%li= msg
+
+	.form-group
+		= f.label :image
+		%br/
+		= f.file_field :image, class: "form-control"
+
 	.form-group
 		= f.label :title
 		%br/
