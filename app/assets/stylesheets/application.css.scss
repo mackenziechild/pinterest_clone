@@ -69,6 +69,15 @@ nav {
 	}
 }
 
+#edit_page {
+	.current_image {
+		img {
+			display: block;
+			margin: 20px 0;
+		}
+	}
+}
+
 #pin_show {
 	padding-top: 50px;
 	.panel-heading {
@@ -101,4 +110,8 @@ nav {
 			padding-top: 8px;
 		}
 	}
+}
+
+textarea {
+	min-height: 250px;
 }
