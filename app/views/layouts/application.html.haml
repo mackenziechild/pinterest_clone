@@ -1,7 +1,7 @@
 !!! 5
 %html
 %head
-	%title Pinterest
+	%title Pin Board
 	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
 	= csrf_meta_tags
@@ -9,7 +9,7 @@
 %body
 	%nav.navbar.navbar-default
 		.container
-			.navbar-brand= link_to "Pinterest", root_path
+			.navbar-brand= link_to "Pin Board", root_path
 
 			- if user_signed_in?
 				%ul.nav.navbar-nav.navbar-right
