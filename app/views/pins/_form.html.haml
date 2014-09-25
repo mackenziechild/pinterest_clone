@@ -1,4 +1,4 @@
-= form_for @pin, html: { multipart: true } do |f|
+= simple_form_for @pin, html: { multipart: true } do |f|
 	- if @pin.errors.any?
 		#errors
 			%h2
@@ -9,18 +9,12 @@
 					%li= msg
 
 	.form-group
-		= f.label :image
-		%br/
-		= f.file_field :image, class: "form-control"
+		= f.input :image, input_html: { class: 'form-control' }
 
 	.form-group
-		= f.label :title
-		%br/
-		= f.text_field :title, class: "form-control"
+		= f.input :title, input_html: { class: 'form-control' }
 
 	.form-group
-		= f.label :description
-		%br/
-		= f.text_area :description, class: "form-control"
+		= f.input :description, input_html: { class: 'form-control' }
 
-	= f.submit class: "btn btn-primary"
+	= f.button :submit, class: "btn btn-primary"
