@@ -1,28 +1,12 @@
-== README
+= Pinterest Style Web App
+== Week 4 of my 12 in 12 Challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My goal with this challenge is to teach myself Ruby on Rails by building a new web app (using rails) each week for 12 weeks.
 
-Things you may want to cover:
+This week I built a Pinterest style web app, with Users, Pins, Image Uploading and all that good stuff!
 
-* Ruby version
+{View the demo application here}[http://week-4-pin-board.herokuapp.com/], and watch the {How To Screencast here}[http://youtu.be/abcnfFS_DS8]
 
-* System dependencies
+---
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+You can find me on {Twitter}[http://twitter.com/mackenziechild] or follow along for more Rails on my website {MackenzieChild.me}[http://mackenziechild.me]
